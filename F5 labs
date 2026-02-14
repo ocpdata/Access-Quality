@@ -1,0 +1,16 @@
+F5 provides numerous NGINX examples and templates through several GitHub repositories, covering a wide range of use cases from basic configuration to Kubernetes ingress and automation. 
+Key GitHub repositories and examples from F5 NGINX include:
+General NGINX Configuration and Use Cases
+f5devcentral/n1_nim_template_examples: This repository contains example templates for common NGINX use cases, compatible with NGINX Instance Manager (NIM) and NGINX One Console. It is useful for remote, batch configuration management.
+nginxinc/nginx-basics-workshops: A repository with hands-on lab exercises that demonstrate basic NGINX configurations. Topics include web server setup, load balancing, SSL termination, and health checks, often using Docker containers.
+nginx/nginx-demos: This repository includes various NGINX demos, such as traffic splitting with NGINX Gateway Fabric. 
+Automation and Infrastructure as Code (IaC) 
+f5devcentral/nginx_automation_examples: A hub for automated resources to assist users with NGINX One and Terraform use cases, focusing on application delivery and infrastructure as code.
+f5devcentral/NGINX-Declarative-API: This project simplifies NGINX operational workflows by allowing users to express configurations as a single JSON object, with support for GitOps integration. 
+Kubernetes and Cloud-Native Examples
+nginx/kubernetes-ingress: The official repository for NGINX and NGINX Plus Ingress Controllers for Kubernetes, including installation manifests, Helm charts, documentation, and examples.
+f5devcentral/NGINX-Gateway-Fabric-Lab: Provides a comprehensive lab walkthrough and configuration examples for leveraging NGINX Gateway Fabric within a Kubernetes environment.
+jfrogtraining/f5-nginx-canary-deployments: Includes examples and a CI/CD pipeline definition for implementing blue-green canary deployments with NGINX Ingress Controllers on AWS EKS. 
+Specific Functionality and Modules
+nginx/njs: The repository for the NGINX JavaScript (njs) module, providing examples for using a subset of the JavaScript language to extend NGINX functionality (e.g., in configuration files).
+apcj-f5/nginx-waf-templates: Contains example configurations for NGINX with Web Application Firewall (WAF) integration. 
